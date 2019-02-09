@@ -12,10 +12,6 @@ Topics to be covered include:
 
 [Extra exercises](tesscut_exomast/TESScut_ExoMAST_exercises.ipynb)
 
-# Additional Example Notebooks
-
-## [Retrieve Data from Amazon S3 Cloud](aws_cloud_retrieval/aws_cloud_data_retrieval.ipynb)
-
 
 ## [starry: Fast light curve modeling for TESS](starry/)
 
@@ -24,3 +20,9 @@ Learn how to use [starry](https://rodluger.github.io/starry) to model TESS light
 The two tutorials we'll cover are
 - [An introduction to `starry`](starry/Introduction.ipynb)
 - [Mapping stellar surfaces with `starry`](starry/StarspotMapping.ipynb)
+
+
+
+# Additional Example Notebooks
+
+## [Retrieve Data from Amazon S3 Cloud](aws_cloud_retrieval/aws_cloud_data_retrieval.ipynb)
