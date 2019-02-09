@@ -11,3 +11,10 @@ Topics to be covered include:
 - Creating a movie of TPF frames in Python
 
 
+## [starry: Fast light curve modeling for TESS](starry/)
+
+Learn how to use [starry](https://rodluger.github.io/starry) to model TESS light curves and infer the surface properties of variable stars. We'll discuss how to use `starry` to model rotational light curves and occultation light curves of stars (and planets) with arbitrary surface features (such as spots, clouds, or even continents). Since the algorithm in `starry` is analytic, the modeling is extremely fast, and you'll be a stellar cartographer in no time!
+
+The two tutorials we'll cover are
+- [An introduction to `starry`](starry/Introduction.ipynb)
+- [Mapping stellar surfaces with `starry`](starry/StarspotMapping.ipynb)
