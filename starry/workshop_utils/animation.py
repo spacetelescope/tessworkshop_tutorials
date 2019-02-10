@@ -4,7 +4,7 @@ from matplotlib.animation import FuncAnimation
 from IPython.display import HTML
 
 
-def animate(*maps, res=150, interval=50, frames=100, titles=None):
+def animate(*maps, res=150, interval=50, frames=100, titles=None, normalize=True):
     """Animate several maps side-by-side in a Jupyter notebook."""
     # Let's first render each map over a grid of thetas
     images = []
@@ -27,9 +27,15 @@ def animate(*maps, res=150, interval=50, frames=100, titles=None):
         ax.axis('off')
         if titles is not None:
             ax.set_title(titles[i], y=1.05, fontsize=16)
+    if normalize:
+        vmin = np.nanmin(images)
+        vmax = np.nanmax(images)
+    else:
+        vmin = None
+        vmax = None
     kwargs = dict(origin="lower", extent=(-1, 1, -1, 1), 
-                  cmap="plasma", vmin=np.nanmin(images),
-                  vmax=np.nanmax(images))
+                  cmap="plasma", vmin=vmin,
+                  vmax=vmax)
     ims = [ax.imshow([[]], **kwargs) for ax in axes]
 
     # Initializer function
