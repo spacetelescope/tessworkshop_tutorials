@@ -23,6 +23,14 @@ The two tutorials we'll cover are
 
 ## [eleanor: Simple light curve extraction from TESS FFIs](eleanor/eleanor_tess_workshop.ipynb)
 
+## [exoplanet: Gradient-based inference to exoplanet data analysis](exoplanet/)
+
+Learn how to use [PyMC3](https://docs.pymc.io) and [exoplanet](https://exoplanet.dfm.io/en/stable) to model TESS light curves. exoplanet provides the tools needed to use gradient-based inference methods for modeling exoplanets and stellar variability in photometric and radial velocity time series. These methods (like the [No-U-Turn Sampler](https://arxiv.org/abs/1111.4246)) are much more efficient than tools like [emcee](https://emcee.readthedocs.io) for modeling problems with large numbers of parameters, for example multi-planet systems.
+
+The two tutorials are:
+1. [Fitting a line to data with PyMC3](exoplanet/01_line.ipynb) where we fit a mass-radius relation for small planets, and
+2. [Fitting a transit model to TESS data](exoplanet/02_transit.ipynb) where we fit the FFI light curve of Pi Mensae to model the recently discovered transiting planet in that system.
+
 
 # Additional Example Notebooks
 
