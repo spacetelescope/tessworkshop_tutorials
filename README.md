@@ -21,7 +21,7 @@ The two tutorials we'll cover are
 - [An introduction to `starry`](starry/Introduction.ipynb)
 - [Mapping stellar surfaces with `starry`](starry/StarspotMapping.ipynb)
 
-## [eleanor](eleanor: Simple light curve extraction from TESS FFIs/eleanor_tess_workshop.ipynb)
+## [eleanor: Simple light curve extraction from TESS FFIs](eleanor/eleanor_tess_workshop.ipynb)
 
 
 # Additional Example Notebooks
