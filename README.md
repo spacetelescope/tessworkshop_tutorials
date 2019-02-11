@@ -50,6 +50,9 @@ This tutorial demonstrates usage patterns for the brand new `astropy.stats.bls` 
 If you are already familiar with AstroPy and BLS, you may prefer to head straight to the [AstroPy BLS documentation](http://docs.astropy.org/en/latest/stats/bls.html).
 If Python or BLS are new to you, this tutorial will provide you with step-by-step instructions on how to get started.
 
+- Tutorial: [bls-tutorial.ipynb](bls/bls-tutorial.ipynb)
+- Exercises: [bls-tutorial.ipynb#Exercises](bls/bls-tutorial.ipynb#Exercises)
+
 
 # Additional Example Notebooks
 
