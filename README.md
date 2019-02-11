@@ -36,6 +36,24 @@ The two tutorials are:
 2. [Fitting a transit model to TESS data](exoplanet/02_transit.ipynb) where we fit the FFI light curve of Pi Mensae to model the recently discovered transiting planet in that system.
 
 
+## [lightkurve: A friendly package for TESS time series analysis in Python](lightkurve/workshop/)
+
+Learn how to use the [Lightkurve](https://docs.lightkurve.org) package to create, detrend, and analyze custom light curves from Kepler and TESS pixel data:
+- Tutorial: [Workshop.ipynb](lightkurve/workshop/Workshop.ipynb)
+- Exercise 1: Extracting light curves using different masks ([Exercise_1.ipynb](lightkurve/workshop/Exercise_1.ipynb) | [Exercise_1-Solutions.ipynb](lightkurve/workshop/Exercise_1-Solutions.ipynb))
+- Exercise 2: Building a light curve from two different sectors ([Exercise_2.ipynb](lightkurve/workshop/Exercise_2.ipynb) | [Exercise_2-Solutions.ipynb](lightkurve/workshop/Exercise_2-Solutions.ipynb))
+
+
+## [bls: Finding planet candidates using the Box Least Squares (BLS) algorithm](bls/bls-tutorial.ipynb)
+
+This tutorial demonstrates usage patterns for the brand new `astropy.stats.bls` module to identify transiting planet candidates using the Box Least Squares (BLS) algorithm.
+If you are already familiar with AstroPy and BLS, you may prefer to head straight to the [AstroPy BLS documentation](http://docs.astropy.org/en/latest/stats/bls.html).
+If Python or BLS are new to you, this tutorial will provide you with step-by-step instructions on how to get started.
+
+- Tutorial: [bls-tutorial.ipynb](bls/bls-tutorial.ipynb)
+- Exercises: [bls-tutorial.ipynb#Exercises](bls/bls-tutorial.ipynb#Exercises)
+
+
 # Additional Example Notebooks
 
 ## [Retrieve Data from Amazon S3 Cloud](aws_cloud_retrieval/aws_cloud_data_retrieval.ipynb)
