@@ -36,7 +36,7 @@ The two tutorials are:
 2. [Fitting a transit model to TESS data](exoplanet/02_transit.ipynb) where we fit the FFI light curve of Pi Mensae to model the recently discovered transiting planet in that system.
 
 
-## [lightkurve: A friendly package forTESS time series analysis in Python](lightkurve/)
+## [lightkurve: A friendly package for TESS time series analysis in Python](lightkurve/workshop/)
 
 Learn how to use the [Lightkurve](https://docs.lightkurve.org) package to create, detrend, and analyze custom light curves from Kepler and TESS pixel data:
 - Tutorial: [Workshop.ipynb](lightkurve/workshop/Workshop.ipynb)
