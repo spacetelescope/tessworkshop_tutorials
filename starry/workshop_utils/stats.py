@@ -57,5 +57,5 @@ def MAP(lmax, flux, flux_err, lam=None, axis=[0, 1, 0], **flux_kwargs):
 
     # Compute and return the coefficient estimates and their variance
     yhat = np.dot(M, flux)
-    yvar = np.dot(M, flux_err ** 2 * M.T)
+    yvar = flux_err ** 2 * np.linalg.inv(W)
     return yhat, yvar
