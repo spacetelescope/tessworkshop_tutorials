@@ -35,6 +35,12 @@ The two tutorials are:
 1. [Fitting a line to data with PyMC3](exoplanet/01_line.ipynb) where we fit a mass-radius relation for small planets, and
 2. [Fitting a transit model to TESS data](exoplanet/02_transit.ipynb) where we fit the FFI light curve of Pi Mensae to model the recently discovered transiting planet in that system.
 
+## [bls: Finding planet candidates using the Box Least Squares (BLS) algorithm](bls/bls-tutorial.ipynb)
+
+This tutorial demonstrates usage patterns for the brand new `astropy.stats.bls` module to identify transiting planet candidates using the Box Least Squares (BLS) algorithm.
+If you are already familiar with AstroPy and BLS, you may prefer to head straight to the [AstroPy BLS documentation](http://docs.astropy.org/en/latest/stats/bls.html).
+If Python or BLS are new to you, this tutorial will provide you with step-by-step instructions on how to get started.
+
 
 # Additional Example Notebooks
 
