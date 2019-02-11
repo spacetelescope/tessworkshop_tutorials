@@ -35,6 +35,15 @@ The two tutorials are:
 1. [Fitting a line to data with PyMC3](exoplanet/01_line.ipynb) where we fit a mass-radius relation for small planets, and
 2. [Fitting a transit model to TESS data](exoplanet/02_transit.ipynb) where we fit the FFI light curve of Pi Mensae to model the recently discovered transiting planet in that system.
 
+
+## [lightkurve: A friendly package for Kepler & TESS time series analysis in Python.](lightkurve/)
+
+Learn how to use the [Lightkurve](https://docs.lightkurve.org) package to create, detrend, and analyze custom light curves from Kepler and TESS pixel data:
+- Tutorial: [Workshop.ipynb](lightkurve/workshop/Workshop.ipynb)
+- Exercise 1: [Exercise_1.ipynb](lightkurve/workshop/Exercise_1.ipynb) ([solutions](lightkurve/workshop/Exercise_1-Solutions.ipynb))
+- Exercise 2: [Exercise_2.ipynb](lightkurve/workshop/Exercise_2.ipynb) ([solutions](lightkurve/workshop/Exercise_2-Solutions.ipynb))
+
+
 ## [bls: Finding planet candidates using the Box Least Squares (BLS) algorithm](bls/bls-tutorial.ipynb)
 
 This tutorial demonstrates usage patterns for the brand new `astropy.stats.bls` module to identify transiting planet candidates using the Box Least Squares (BLS) algorithm.
