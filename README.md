@@ -57,3 +57,7 @@ If Python or BLS are new to you, this tutorial will provide you with step-by-ste
 # Additional Example Notebooks
 
 ## [Retrieve Data from Amazon S3 Cloud](aws_cloud_retrieval/aws_cloud_data_retrieval.ipynb)
+
+# Environment
+
+These tutorials were originally given on a workshop specific science platform, the packages/versions installed in that environment are listed in [environment.txt](./environment.txt).
